@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Patient.addPatientTest"/>
+      <class name="Patient.patientSignUp"/>
+      <class name="Patient.verifyCreatedPatient"/>
+      <class name="Patient.updateDocDetails_ST"/>
+      <class name="AdminModule.systemScenario2"/>
+      <class name="Patient.addAppointmentTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
